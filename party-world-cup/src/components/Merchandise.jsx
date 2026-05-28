@@ -1,8 +1,7 @@
 import React from 'react';
-// Swap these filenames out with your actual image assets
 import jerseyImg from '../assets/jersey.PNG';
-import hatImg from '../assets/hat.png';
-import scarfImg from '../assets/scarf.png';
+import hatImg from '../assets/hat.PNG';
+import scarfImg from '../assets/scarf.PNG';
 
 export default function Merchandise() {
   const products = [

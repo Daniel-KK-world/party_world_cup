@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import FanParties from './components/FanParties';
 import Sponsorship from './components/Sponsorship';
+import Merchandise from './components/Merchandise';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <Hero />
       <About />
       <FanParties />
+      <Merchandise />
       <Sponsorship />
     </div>
   );
