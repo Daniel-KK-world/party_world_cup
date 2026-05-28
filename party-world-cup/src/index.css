@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@theme {
+  --color-brand-gold: #EABF4D;
+  --color-brand-black: #0D0D0D;
+}
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+body {
+  background-color: var(--color-brand-black);
+  color: #fff;
+}
+
+/* Custom utility class for the specific font */
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
+}
