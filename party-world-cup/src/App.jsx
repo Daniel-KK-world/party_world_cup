@@ -6,6 +6,7 @@ import FanParties from './components/FanParties';
 import Sponsorship from './components/Sponsorship';
 import Merchandise from './components/Merchandise';
 import HostAParty from './components/HostAParty';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
