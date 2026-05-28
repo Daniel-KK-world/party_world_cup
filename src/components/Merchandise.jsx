@@ -1,7 +1,7 @@
 import React from 'react';
-import jerseyImg from '../assets/jersey.png';
-import hatImg from '../assets/hat.png';
-import scarfImg from '../assets/scarf.png';
+import jerseyImg from "../assets/jersey.png";
+import hatImg from "../assets/hat.png";
+import scarfImg from "../assets/scarf.png";
 
 export default function Merchandise() {
   const products = [
