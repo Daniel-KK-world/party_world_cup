@@ -36,11 +36,11 @@ export default function Footer() {
               QUICK LINKS
             </h4>
             <ul className="space-y-4 text-sm text-gray-400 font-sans">
-              <li><a href="#" className="hover:text-white transition">About</a></li>
-              <li><a href="#" className="hover:text-white transition">Cities</a></li>
-              <li><a href="#" className="hover:text-white transition">Merchandise</a></li>
-              <li><a href="#" className="hover:text-white transition">Sponsors</a></li>
-              <li><a href="#" className="hover:text-white transition">Host a Party</a></li>
+              <li><a href="#about" className="hover:text-white transition">About</a></li>
+              <li><a href="#cities" className="hover:text-white transition">Cities</a></li>
+              <li><a href="#merchandise" className="hover:text-white transition">Merchandise</a></li>
+              <li><a href="#spnsors" className="hover:text-white transition">Sponsors</a></li>
+              <li><a href="#contact" className="hover:text-white transition">Host a Party</a></li>
             </ul>
           </div>
 
