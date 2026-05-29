@@ -22,11 +22,11 @@ export default function Navbar() {
             className="flex items-center space-x-8 px-8 text-sm tracking-widest text-gray-300 font-medium"
             style={{ fontFamily: "'Inter', sans-serif" }}
           >
-            <a href="#" className="hover:text-brand-gold transition">ABOUT</a>
-            <a href="#" className="hover:text-brand-gold transition">CITIES</a>
-            <a href="#" className="hover:text-brand-gold transition">MERCH</a>
-            <a href="#" className="hover:text-brand-gold transition">SPONSORS</a>
-            <a href="#" className="hover:text-brand-gold transition">CONTACT</a>
+            <a href="#about" className="hover:text-brand-gold transition">ABOUT</a>
+            <a href="#cities" className="hover:text-brand-gold transition">CITIES</a>
+            <a href="#merchandise" className="hover:text-brand-gold transition">MERCH</a>
+            <a href="#sponsors" className="hover:text-brand-gold transition">SPONSORS</a>
+            <a href="#contact" className="hover:text-brand-gold transition">CONTACT</a>
           </nav>
 
           {/* BUTTON - Also updated to text-sm (14px) to match */}
