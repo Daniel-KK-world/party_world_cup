@@ -9,7 +9,6 @@ export default function Sponsorship() {
       borderColor: 'border-[#E5E7EB]',
       btnBg: 'bg-[#E5E7EB]',
       btnText: 'text-black',
-      highlight: false,
       features: [
         'Premium stage branding',
         'VIP hospitality suite',
@@ -26,7 +25,6 @@ export default function Sponsorship() {
       borderColor: 'border-[#D4A017]',
       btnBg: 'bg-gradient-to-r from-[#D4A017] to-[#E2CB8D]',
       btnText: 'text-black',
-      highlight: true, // This adds the gold border around the whole card
       features: [
         'Stage banner placement',
         '2-minute brand segment',
@@ -42,7 +40,6 @@ export default function Sponsorship() {
       borderColor: 'border-[#9CA3AF]',
       btnBg: 'bg-[#9CA3AF]',
       btnText: 'text-black',
-      highlight: false,
       features: [
         'Banner at venue entrance',
         '1 VIP pass',
@@ -53,7 +50,7 @@ export default function Sponsorship() {
   ];
 
   return (
-    <section className="bg-[#0D0D0D] py-24 px-4 sm:px-8 relative z-10 w-full">
+    <section id="sponsors" className="bg-[#0D0D0D] py-24 px-4 sm:px-8 relative z-10 w-full">
       <div className="max-w-6xl mx-auto flex flex-col items-center">
         
         {/* --- PART 1: SPONSORSHIP TIERS --- */}
@@ -73,9 +70,7 @@ export default function Sponsorship() {
           {tiers.map((tier, index) => (
             <div 
               key={index} 
-              className={`bg-[#141414] relative flex flex-col p-8 ${
-                tier.highlight ? 'border border-[#D4A017]' : 'border border-white/5'
-              }`}
+              className="bg-[#141414] relative flex flex-col p-8 border border-white/5 transition-all duration-300 hover:border-[#D4A017] hover:shadow-[0_0_15px_rgba(212,160,23,0.25)] z-0 hover:z-10"
             >
               {/* Top Color Bar */}
               <div className={`absolute top-0 left-0 w-full h-2 ${tier.borderColor} border-t-4`}></div>

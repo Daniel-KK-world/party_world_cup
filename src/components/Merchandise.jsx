@@ -26,7 +26,7 @@ export default function Merchandise() {
   ];
 
   return (
-    <section className="bg-[#0D0D0D] py-24 px-4 sm:px-8 relative z-10 w-full">
+    <section id="merchandise" className="bg-[#0D0D0D] py-24 px-4 sm:px-8 relative z-10 w-full">
       <div className="max-w-6xl mx-auto flex flex-col items-center">
         
         {/* HEADER */}
@@ -45,7 +45,7 @@ export default function Merchandise() {
           {products.map((product, index) => (
             <div 
               key={index} 
-              className="bg-[#141414] border border-white/5 p-8 flex flex-col items-center text-center"
+              className="bg-[#141414] border border-[#D4A017]/30 shadow-[0_0_10px_rgba(212,160,23,0.15)] p-8 flex flex-col items-center text-center transition-all duration-300 hover:border-[#D4A017]/50 hover:shadow-[0_0_15px_rgba(212,160,23,0.25)]"
             >
               {/* Product Image & Tag */}
               <div className="relative mb-8 flex flex-col items-center w-full">

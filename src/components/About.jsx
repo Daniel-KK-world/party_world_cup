@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <section className="bg-[#0D0D0D] py-24 px-4 sm:px-8 relative z-10">
+    <section id="about" className="bg-[#0D0D0D] py-24 px-4 sm:px-8 relative z-10">
       <div className="max-w-6xl mx-auto flex flex-col items-center">
         
         {/* HEADER SECTION */}
@@ -22,7 +22,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
           
           {/* CARD 1 */}
-          <div className="bg-[#141414] border border-white/5 p-10 flex flex-col items-center text-center">
+          <div className="bg-[#141414] border border-brand-gold/30 shadow-[0_0_10px_rgba(255,215,0,0.1)] p-10 flex flex-col items-center text-center transition-all duration-300 hover:border-brand-gold/50">
             <div className="text-brand-gold mb-6">
               <GlobeIcon />
             </div>
@@ -35,7 +35,7 @@ export default function About() {
           </div>
 
           {/* CARD 2 */}
-          <div className="bg-[#141414] border border-white/5 p-10 flex flex-col items-center text-center">
+          <div className="bg-[#141414] border border-brand-gold/30 shadow-[0_0_10px_rgba(255,215,0,0.1)] p-10 flex flex-col items-center text-center transition-all duration-300 hover:border-brand-gold/50">
             <div className="text-brand-gold mb-6">
               <UsersIcon />
             </div>
@@ -48,7 +48,7 @@ export default function About() {
           </div>
 
           {/* CARD 3 */}
-          <div className="bg-[#141414] border border-white/5 p-10 flex flex-col items-center text-center">
+          <div className="bg-[#141414] border border-brand-gold/30 shadow-[0_0_10px_rgba(255,215,0,0.1)] p-10 flex flex-col items-center text-center transition-all duration-300 hover:border-brand-gold/50">
             <div className="text-brand-gold mb-6">
               <MusicIcon />
             </div>

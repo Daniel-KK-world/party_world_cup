@@ -12,7 +12,7 @@ export default function FanParties() {
   ];
 
   return (
-    <section className="relative z-10 w-full">
+    <section id="cities" className="relative z-10 w-full">
       
       {/* 1. STATS BANNER WITH CUSTOM GRADIENT */}
       <div className="bg-gradient-to-r from-[#D4A017] to-[#E2CB8D] py-12 md:py-16 text-black">

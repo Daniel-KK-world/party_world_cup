@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function HostAParty() {
   return (
-    <section className="bg-[#0D0D0D] py-24 px-4 sm:px-8 relative z-10 w-full">
+    <section id="contact" className="bg-[#0D0D0D] py-24 px-4 sm:px-8 relative z-10 w-full">
       <div className="max-w-4xl mx-auto flex flex-col items-center">
         
         {/* GHANA FLAG STRIPES */}
